@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>1주차 2번째 과제</title>
+  </head>
+  <body>
+    <h1>Aperture에 회원가입하기 위한 페이지입니다.</h1>
+    <hr style="border: dashed 5px skyblue">
+    <form>
+    <p><lable>아이디</lable> : <input type="text" name="id"></p>
+    <p><lable>비밀번호</lable> : <input type="password" name="pwd"></p>
+    <p><lable>소개</lable> : <textarea rows="4" cols="60"></textarea></p>
+    <p><lable>성별</lable>
+    <select name="gender">
+      <option>남성</option>
+      <option>여성</option></p>
+    </select>
+    <br>
+    <p><lable>좋아하는 음식</lable>
+    <br>
+    <select name="fodd" multiple>
+    <option>치느님</option>
+    <option>피자</option>
+    <option>비빔밥</option>
+    <option>고기</option></p>
+    </select>
+
+    <p><lable>학년</lable><br>
+    1학년 <input type="radio" name="grade"><br>
+    2학년 <input type="radio" name="grade"><br>
+    3학년 <input type="radio" name="grade"><br></p>
+
+    <lable>좋아하는 가족</lable>
+    <p>엄마 <input type="checkbox" name="family">
+    아빠 <input type="checkbox" name="family">
+    형제자매 <input type="checkbox" name="family">
+    조부모님 <input type="checkbox" name="family">
+    기타 <input type="checkbox" name="family"></p>
+    <input type="submit" value="전송">
+    <input type="reset">
+</form>
+
+
+
+  </body>
+</html>
